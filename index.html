@@ -10,26 +10,14 @@
             padding: 0;
             width: 100%;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f4f4f4;
-            overflow: hidden; /* Prevents unnecessary scrolling */
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100vh;
-            overflow-y: auto; /* Allows vertical scrolling */
+            overflow: hidden;
         }
         .report-container {
-            width: 936px;
-            height: 1320px;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         iframe {
             width: 100%;
@@ -39,10 +27,8 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="report-container">
-            <iframe title="[LIVE] KI-prosjekt kart rapport V3" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiMmYzZWI2MDQtMTI0OS00MjFiLTllNDgtYmI2NDliNzhiNTViIiwidCI6IjUyYTllNTJlLWQ5MTgtNDAxZC1hYWZiLTBkYzE0YWMwOGUxNyIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
-        </div>
+    <div class="report-container">
+        <iframe src="[LIVE] KI-prosjekt kart rapport V3" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiMmYzZWI2MDQtMTI0OS00MjFiLTllNDgtYmI2NDliNzhiNTViIiwidCI6IjUyYTllNTJlLWQ5MTgtNDAxZC1hYWZiLTBkYzE0YWMwOGUxNyIsImMiOjh9" allowfullscreen></iframe>
     </div>
 </body>
 </html>
